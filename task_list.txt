@@ -1,0 +1,30 @@
+Windward Labs Interview Tasks
+
+1. Create a new view in a seperate file called NextPage that displays a the title "Next Page" in the app bar and "hello windward" in the center of it's view
+
+2. Create a button at the bottom of the HomePage that will navigate to the NextPage
+
+3. Disable back swiping on NextPage and add a back button in the App Bar
+
+4. Using setState, create a button in NextPage that changes the color of the AppBar to a random color every time it's pressed
+
+5. Create an Address Object in it's own file that is based on the Map objects in address_map_list.dart provided in the addressMap list that has a function to convert the objects in addressMap to Address
+
+6. Build a reusable card (without using the card widget) that would take in an address object and display all the information in it,
+- Make the reusable card have rounded corners and a drop shadow. 
+- Format the address information in whatever way feels like the best ui to you given time
+- Add the Roboto font as an asset through pubspec.yaml and use that to display the information 
+
+7. Create a scrollable list of addresses in whatever way you want populated with the items in address_map_list.dart and the cards created in tasks 4 and 5
+
+8. Create a email input field with validation to check if the input is indeed email format of any string followed by an "@" string "." string and a character limit of 15
+- Make a validation message display letting the user know that the input is not an email
+- If the input is a verified email but is less than 5 characters, display an input message letting the user know that the input is too short
+
+9. Change all uses of state so far to an implementation of any current state management package
+
+10. Implement the flutter_local_notifications package:
+- Shows a simple notification when a button is pressed.
+- Schedules a notification for a future time.
+- Uses a custom sound and icon (if possible).
+- Adds a button on the notification that performs an action when tapped.
